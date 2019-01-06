@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel= "stylesheet" href = "style/homestyle.css">
+	<link rel= "icon" href= "image/favicon.png"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/show.js"></script>
+	<title>Welcome!</title>
+</head>
+<body>
+	
+	<div class="bgImage">
+		<div class = "rain"></div>
+		<div class = "cityscape"></div>
+		<div class="aboutMeHomeButton" onclick="make_show('aboutMeContent');" onmouseleave="make_clear('aboutMeContent');"></div>
+		<div id="aboutMeContent" class="aboutMeContent" style= "display:none">
+			<div class="aboutMeTextBox">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+			Excepteur sint occaecat cupidatat non proident
+			</div>
+		</div>
+		<div class="socialHomeButton" onclick="make_show('socialContent');"></div>
+		<div id="socialContent" class="socialContent" style="display:none" onmouseleave="make_clear('socialContent');">
+			<div class="socialTextBox">
+				GITHUB: 
+				<div class="socialLinks" onclick="window.location='https://github.com/sallexwy';">
+					https://github.com/sallexwy<br></br>
+				</div>
+				LINKEDIN:
+				<div class="socialLinks" onclick="window.location='https://www.linkedin.com/in/sally-xiao-83ab66152/';">
+					https://www.linkedin.com/
+					in/sally-xiao-83ab66152/<br></br>
+				</div>	
+			</div>
+		</div>
+		<div class="projectsHomeButton" onclick="make_show('projectsContent');"></div>
+		<div class="projectsContent" id="projectsContent" style="display:none" 
+				onmouseleave="
+				make_clear('projectLink1');
+				make_clear('projectLink2');
+				make_clear('projectLink3');
+				make_clear('projectsContent');">
+				CLICK ME IM CONTENT
+			<div id="projectLink1" class="projectLinks">project one</div>
+			<div id="projectLink2" class="projectLinks">project two</div>
+			<div id="projectLink3" class="projectLinks">project three</div>	
+		</div>
+	</div>
+	
+</body>
+</html>
