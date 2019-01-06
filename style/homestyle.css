@@ -37,7 +37,7 @@ body {
 	background-size:33.33% 100%;
 	background-repeat: repeat-x;
 	opacity: 0.35;
-	top:74%;
+	bottom: 0%;
 	height: 150px;
 	width: 1500px;
 	position:absolute;
@@ -83,12 +83,12 @@ body {
 	background-image: url("../image/aboutMeHome.png");
 	position: absolute;
 	background-position: 100% 100%;
-	top: 64%;
+	bottom: 0%;
 	left:10%;
 	padding: 0;
 	margin:0;
 	width: 92px;
-	height: 226px;
+	height: 209px;
 	
 }
 
@@ -127,7 +127,7 @@ body {
 	background-image: url("../image/socialHome.png");
 	position: absolute;
 	background-position: 100% 100%;
-	top: 20%;
+	bottom: 0%;
 	left:21%;
 	padding: 0;
 	margin:0;
@@ -185,7 +185,7 @@ body {
 	background-repeat: repeat-y;
 	position: absolute;
 	background-position: 80% 80%;
-	top: 0%;
+	bottom: 0%;
 	left:87%;
 	padding: 0;
 	margin:0;
