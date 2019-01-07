@@ -77,6 +77,7 @@ body {
 	
 }
 
+
 .aboutMeHomeButton {
 	transition: 0.3s ease;
 	opacity: 0.45;
@@ -94,6 +95,39 @@ body {
 
 .aboutMeHomeButton:hover {
 	opacity: 1;
+}
+
+.aboutMeContentBase {
+	opacity: 0.4;
+	color: #500000;
+	padding: 0;
+	margin: 0;
+	top: 12%;
+	left: 3%;
+	background-image: url("../image/aboutMeContentBase.png");
+	background-position: 100% 100%;
+	position: absolute;
+	width: 266px;
+	height: 295px;
+	transition: 0.3s ease;
+}
+
+.aboutMeContentBase:hover {
+	color: white;
+	
+}
+
+.aboutMeContentBaseWords{
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	margin: 10px;
+	padding: 10px;
+	top: 10%;
+	left: 10%;
+	width: 200px;
+	height: 30px;
+	font-family: 'slkscr';
 }
 
 .aboutMeContent{
@@ -140,6 +174,37 @@ body {
 	
 }
 
+.socialContentBase {
+	position: absolute;
+	background-image: url("../image/socialContentBase.png");
+	background-position: 100% 100%;
+	top: 5%;
+	left: 35%;
+	padding: 0;
+	margin: 0;
+	width: 300px;
+	height: 153px;
+	opacity: 0.4;
+	transition: 0.3s ease;
+}
+
+.socialContentBase:hover {
+	color: white;
+}
+
+.contentBaseWords{
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	margin: 10px;
+	padding: 10px;
+	top: 10%;
+	left: 10%;
+	width: 200px;
+	height: 30px;
+	font-family: 'slkscr';
+}
+
 .socialContent{
 	color: white;
 	position: absolute;
@@ -170,11 +235,11 @@ body {
 	opacity: 1;
 	font-size: 15px;
 	font-family: 'slkscr';
-	color: #FC8D0F;
+	color: #fff876;
 	
 }
 .socialLinks:hover{
-	color:#ffb3ff;
+	color:#ff77bb;
 }
 
 
@@ -208,7 +273,6 @@ body {
 	animation-iteration-count: 3;
 	top: 20%;
 	left: 70%;
-	
 }
 .projectLinks{
 	transition: 0.3s;
